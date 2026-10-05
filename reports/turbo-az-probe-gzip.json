@@ -1,0 +1,152 @@
+{
+  "target": "https://turbo.az",
+  "started": "2026-10-05 16:49:13",
+  "phases": [
+    {
+      "phase": "httpflood",
+      "duration_planned": 70.0,
+      "duration_actual": 75.33,
+      "interrupted": false,
+      "processes": 2,
+      "totals": {
+        "issued": 30022,
+        "requests": 9712,
+        "success": 9698,
+        "error": 0,
+        "timeout": 0,
+        "connfail": 1,
+        "reset": 14,
+        "bytes_sent": 1657012,
+        "bytes_recv": 520228807,
+        "retries": 0,
+        "packets": 0,
+        "streams_reset": 0,
+        "connections": 284,
+        "dropped": 13774,
+        "status_2xx": 9757,
+        "status_3xx": 0,
+        "status_4xx": 0,
+        "status_5xx": 0
+      },
+      "snapshots": 259,
+      "alarms": [
+        "rps@5s",
+        "err_rate@51s",
+        "err_rate@52s",
+        "connfail_ps@57s"
+      ],
+      "latency_ms": {
+        "p50": 1536.52,
+        "p95": 5313.85,
+        "p99": 6377.29
+      },
+      "collapse": {
+        "collapse_rate": 103.90625,
+        "safe_rate": 100.0,
+        "baseline_p95_ms": 1184.4191874997705,
+        "bracket": [
+          100.0,
+          103.90625
+        ],
+        "probes": 11,
+        "history": [
+          {
+            "rate": 100.0,
+            "p95_ms": 1817.444667000018,
+            "err_rate": 0.0,
+            "ok": true,
+            "t": 1791204481.648,
+            "t_elapsed": 3.35088658299901
+          },
+          {
+            "rate": 2100.0,
+            "p95_ms": 3756.7958330000693,
+            "err_rate": 0.0,
+            "ok": false,
+            "t": 1791204487.7719162,
+            "t_elapsed": 9.489878500000486
+          },
+          {
+            "rate": 1100.0,
+            "p95_ms": 4373.904500000208,
+            "err_rate": 0.0,
+            "ok": false,
+            "t": 1791204493.875328,
+            "t_elapsed": 15.590370750000147
+          },
+          {
+            "rate": 600.0,
+            "p95_ms": 5295.160208001107,
+            "err_rate": 0.0,
+            "ok": false,
+            "t": 1791204500.0068328,
+            "t_elapsed": 21.716722707998997
+          },
+          {
+            "rate": 350.0,
+            "p95_ms": 5259.142333001364,
+            "err_rate": 0.0,
+            "ok": false,
+            "t": 1791204506.404408,
+            "t_elapsed": 28.11976074999984
+          },
+          {
+            "rate": 225.0,
+            "p95_ms": 5278.193750000355,
+            "err_rate": 0.0,
+            "ok": false,
+            "t": 1791204512.558592,
+            "t_elapsed": 34.27616220799973
+          },
+          {
+            "rate": 162.5,
+            "p95_ms": 5287.614374999976,
+            "err_rate": 0.0,
+            "ok": false,
+            "t": 1791204518.921553,
+            "t_elapsed": 40.63357612499931
+          },
+          {
+            "rate": 131.25,
+            "p95_ms": 5309.824166999533,
+            "err_rate": 0.0,
+            "ok": false,
+            "t": 1791204525.1136792,
+            "t_elapsed": 46.82965920800052
+          },
+          {
+            "rate": 115.625,
+            "p95_ms": 5289.630290999412,
+            "err_rate": 0.0005192107995846313,
+            "ok": false,
+            "t": 1791204531.257747,
+            "t_elapsed": 52.974679124999966
+          },
+          {
+            "rate": 107.8125,
+            "p95_ms": 5295.508458000768,
+            "err_rate": 0.0008239171374764595,
+            "ok": false,
+            "t": 1791204537.429213,
+            "t_elapsed": 59.14157412500026
+          },
+          {
+            "rate": 103.90625,
+            "p95_ms": 5333.056834000672,
+            "err_rate": 0.001290600129060013,
+            "ok": false,
+            "t": 1791204543.606857,
+            "t_elapsed": 65.31730787500055
+          }
+        ]
+      }
+    }
+  ],
+  "family_scores": {
+    "request-rate": 0.534386200480192,
+    "protocol-asymmetry": 0.004501800720288116,
+    "connection-hold": 0.08485044757847385,
+    "packet-rate": 0.0015006002400960385
+  },
+  "recommended_vector_family": "request-rate"
+}

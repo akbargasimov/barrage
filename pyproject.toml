@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "barrage"
+version = "0.2.0"
+description = "Adaptive multi-vector load & stress testing framework — finds the exact load that degrades a service, on targets you own."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Almaz" }]
+dependencies = []
+
+[project.optional-dependencies]
+ui = ["rich>=13.0"]
+http2 = ["h2>=4.1"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+barrage = "barrage.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["barrage*"]

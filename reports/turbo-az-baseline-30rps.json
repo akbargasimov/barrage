@@ -1,0 +1,47 @@
+{
+  "target": "https://turbo.az",
+  "started": "2026-10-05 16:32:33",
+  "phases": [
+    {
+      "phase": "httpflood",
+      "duration_planned": 15.0,
+      "duration_actual": 17.3,
+      "interrupted": false,
+      "processes": 1,
+      "totals": {
+        "issued": 450,
+        "requests": 428,
+        "success": 428,
+        "error": 0,
+        "timeout": 0,
+        "connfail": 0,
+        "reset": 0,
+        "bytes_sent": 51736,
+        "bytes_recv": 0,
+        "retries": 0,
+        "packets": 0,
+        "streams_reset": 0,
+        "connections": 18,
+        "dropped": 0,
+        "status_2xx": 434,
+        "status_3xx": 0,
+        "status_4xx": 0,
+        "status_5xx": 0
+      },
+      "snapshots": 31,
+      "alarms": [],
+      "latency_ms": {
+        "p50": 428.51,
+        "p95": 1331.4,
+        "p99": 2265.2
+      }
+    }
+  ],
+  "family_scores": {
+    "request-rate": 0.13314,
+    "protocol-asymmetry": 0.0,
+    "connection-hold": 0.0036,
+    "packet-rate": 0.0
+  },
+  "recommended_vector_family": "request-rate"
+}

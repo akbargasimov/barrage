@@ -1,0 +1,154 @@
+{
+  "target": "https://turbo.az",
+  "started": "2026-10-05 16:39:29",
+  "phases": [
+    {
+      "phase": "httpflood",
+      "duration_planned": 70.0,
+      "duration_actual": 75.19,
+      "interrupted": false,
+      "processes": 2,
+      "totals": {
+        "issued": 4223,
+        "requests": 2179,
+        "success": 2143,
+        "error": 0,
+        "timeout": 0,
+        "connfail": 15,
+        "reset": 36,
+        "bytes_sent": 269004,
+        "bytes_recv": 646293300,
+        "retries": 0,
+        "packets": 0,
+        "streams_reset": 0,
+        "connections": 176,
+        "dropped": 0,
+        "status_2xx": 2291,
+        "status_3xx": 0,
+        "status_4xx": 0,
+        "status_5xx": 0
+      },
+      "snapshots": 151,
+      "alarms": [
+        "connfail_ps@4s",
+        "err_rate@4s",
+        "err_rate@5s",
+        "rps@26s",
+        "rps@36s",
+        "rps@67s"
+      ],
+      "latency_ms": {
+        "p50": 3866.06,
+        "p95": 9799.88,
+        "p99": 15777.14
+      },
+      "collapse": {
+        "collapse_rate": 50.0,
+        "safe_rate": 50.0,
+        "baseline_p95_ms": 1031.8554995010345,
+        "bracket": [
+          50.0,
+          50.0
+        ],
+        "probes": 11,
+        "history": [
+          {
+            "rate": 100.0,
+            "p95_ms": 2655.1512500009267,
+            "err_rate": 0.0,
+            "ok": false,
+            "t": 1791203897.7239208,
+            "t_elapsed": 3.0681092499999068
+          },
+          {
+            "rate": 100.0,
+            "p95_ms": 7574.133083000561,
+            "err_rate": 0.0427807486631016,
+            "ok": false,
+            "t": 1791203904.136252,
+            "t_elapsed": 9.486881209000785
+          },
+          {
+            "rate": 75.0,
+            "p95_ms": 9713.386792000165,
+            "err_rate": 0.05509181969949917,
+            "ok": false,
+            "t": 1791203910.518483,
+            "t_elapsed": 15.878625500001363
+          },
+          {
+            "rate": 62.5,
+            "p95_ms": 9785.719791998417,
+            "err_rate": 0.04580152671755725,
+            "ok": false,
+            "t": 1791203916.683182,
+            "t_elapsed": 22.03466750000007
+          },
+          {
+            "rate": 56.25,
+            "p95_ms": 9916.848083999867,
+            "err_rate": 0.03869047619047619,
+            "ok": false,
+            "t": 1791203923.062902,
+            "t_elapsed": 28.41713937500026
+          },
+          {
+            "rate": 53.125,
+            "p95_ms": 9785.719791998417,
+            "err_rate": 0.03410981697171381,
+            "ok": false,
+            "t": 1791203929.21458,
+            "t_elapsed": 34.5644004170008
+          },
+          {
+            "rate": 50.0,
+            "p95_ms": 9663.099457999124,
+            "err_rate": 0.03058321479374111,
+            "ok": false,
+            "t": 1791203935.6168692,
+            "t_elapsed": 40.96868545899997
+          },
+          {
+            "rate": 50.0,
+            "p95_ms": 9559.216542000286,
+            "err_rate": 0.027312228429546864,
+            "ok": false,
+            "t": 1791203941.758613,
+            "t_elapsed": 47.11537741700158
+          },
+          {
+            "rate": 50.0,
+            "p95_ms": 9645.292624998547,
+            "err_rate": 0.02405686167304538,
+            "ok": false,
+            "t": 1791203948.157263,
+            "t_elapsed": 53.50846983400152
+          },
+          {
+            "rate": 50.0,
+            "p95_ms": 9799.875165999765,
+            "err_rate": 0.022648941408173313,
+            "ok": false,
+            "t": 1791203954.594769,
+            "t_elapsed": 59.94449362500018
+          },
+          {
+            "rate": 50.0,
+            "p95_ms": 10854.210082999998,
+            "err_rate": 0.02243158366980709,
+            "ok": false,
+            "t": 1791203960.796345,
+            "t_elapsed": 66.1455323750015
+          }
+        ]
+      }
+    }
+  ],
+  "family_scores": {
+    "request-rate": 1.023300101910828,
+    "protocol-asymmetry": 0.06496815286624204,
+    "connection-hold": 0.4558452782462772,
+    "packet-rate": 0.02165605095541401
+  },
+  "recommended_vector_family": "request-rate"
+}
